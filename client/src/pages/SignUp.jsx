@@ -44,11 +44,7 @@ catch(error){
     setLoading(false);
     setError(error.message);
   }
- 
-  
 };
-
-
 
 return (
     <div className='p-3 max-w-lg mx-auto'>
